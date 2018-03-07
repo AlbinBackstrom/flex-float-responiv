@@ -1,0 +1,82 @@
+/* STORLEK FÖR MOBIL 0-768*/
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1a3332;
+    height: 45px;
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+
+}
+
+nav ul li {
+    justify-content: center;
+}
+
+nav ul li a {
+    color: azure;
+    font-size: 16pt;
+    line-height: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+nav ul li:hover {
+    background-color: #2A4547;
+}
+
+.main-flex-div {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.flexbox-div {
+    text-align: justify;
+    padding: 0 15px 15px 15px;
+}
+
+/* STORLEK FÖR SURFPLATTA 768-1024*/
+@media screen and (min-width: 768px) {
+
+    nav ul li a {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .main-flex-div {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .flexbox-div {
+        width: 50%;
+    }
+}
+
+/* STORLEK FÖR DESKTOP +1024*/
+@media screen and (min-width: 1024px) {
+
+
+    .flexbox-div {
+        flex: 1;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+    }
+
+    nav ul a {
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+}
+
+

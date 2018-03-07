@@ -1,0 +1,80 @@
+/* STORLEK FÖR MOBIL 0-768*/
+.nav-bar-vert ul {
+    list-style: none;
+    background-color: cadetblue;
+    margin: 0;
+    padding-left: 0;
+}
+
+.nav-bar-vert ul li {
+    height: 35px;
+    font-family: Cinzel;
+    text-align: center;
+
+}
+
+.nav-bar-vert ul li a {
+    color: black;
+    line-height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-bar-vert ul li:hover {
+    background-color: #2a4547;
+    color: white;
+}
+
+.nav-bar-vert ul li a:hover {
+    color: white;
+}
+
+section {
+    padding: 20px;
+    text-align: justify;
+
+}
+
+/* STORLEK FÖR SURFPLATTA 768-1024*/
+@media screen and (min-width: 768px) {
+
+    header {
+        height: 100px;
+        line-height: 100px;
+    }
+
+
+    footer {
+        clear: both;
+    }
+
+    .section-container {
+        float: right;
+        border-left: 1px solid grey;
+    }
+
+    .section-container > section, .nav-bar-vert{
+        float: left;
+    }
+
+    .nav-bar-vert ul li {
+        height: 60px;
+        font-family: Cinzel;
+        text-align: center;
+
+    }
+
+    .nav-bar-vert ul li a {
+        color: black;
+        line-height: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+
+
+
+
+
